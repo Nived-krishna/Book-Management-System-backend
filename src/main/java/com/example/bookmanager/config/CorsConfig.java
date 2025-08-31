@@ -14,7 +14,7 @@ public class CorsConfig {
 			public void addCorsMappings(CorsRegistry registry) {
 				// Allow your frontend origin(s) here
 				registry.addMapping("/**")
-						.allowedOrigins("http://localhost:3000", "https://book-management-system-eta.vercel.app/")
+						.allowedOrigins("http://localhost:3000", "https://book-management-system-eta.vercel.app")
 						.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS").allowedHeaders("*");
 			}
 		};
